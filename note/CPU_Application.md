@@ -16,5 +16,6 @@
 
 1. CPU Bound Application 생성하기
 <img width="1309" alt="스크린샷 2024-07-02 오후 8 38 11" src="https://github.com/corrvax/cloud/assets/54795404/93027cb4-d028-4bb2-8380-ca029d903fae">
-
-
+    getMD5Digest 메소드에서 Hash연산을 100000번 반복한다.
+- 서버의 Port를 80으로 맞춘다.   
+<img width="1124" alt="스크린샷 2024-07-02 오후 8 41 31" src="https://github.com/corrvax/cloud/assets/54795404/02e7a3d5-7708-450d-b456-4b672bbbb7cd">
