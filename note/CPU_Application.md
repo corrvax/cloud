@@ -20,8 +20,11 @@
   - 서버의 Port를 80으로 맞춘다.   
 <img width="1124" alt="스크린샷 2024-07-02 오후 8 41 31" src="https://github.com/corrvax/cloud/assets/54795404/02e7a3d5-7708-450d-b456-4b672bbbb7cd">   
   - 현재 실행중인 포트 중단하기   
-  `netstat - lntp |grep [포트번호]`   
-  `Isof -i :포트번호`   
+`netstat - lntp |grep [포트번호]`   
+`Isof -i :포트번호`   
   <img width="807" alt="스크린샷 2024-07-02 오후 8 58 48" src="https://github.com/corrvax/cloud/assets/54795404/8855b0ed-e3b0-4586-961d-0de4a8f90484">
   - localhost/hash/123으로 접속 시 hash연산이 된 것을 확인할 수 있다.
 <img width="575" alt="스크린샷 2024-07-02 오후 9 01 09" src="https://github.com/corrvax/cloud/assets/54795404/2dbf75b7-9c7c-41ea-89b9-011f899c1838">
+  - deploy하여 jar파일로 추출한다.
+<img width="1552" alt="스크린샷 2024-07-02 오후 9 26 15" src="https://github.com/corrvax/cloud/assets/54795404/1c26364e-c4f1-4a6a-8e1a-9e6265f1d103">
+
