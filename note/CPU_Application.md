@@ -12,14 +12,14 @@
   또, 메모리와 CPU사이에 캐시메모리를 두고 속도차를 극복한다.
 
 ### CPU Bound Application
-- Hash연산을 많이 쓰는 애플리케이션
+- Hash연산을 많이 쓰는 애플리케이션   
 
-1. CPU Bound Application 생성하기
+1. CPU Bound Application 생성하기   
 <img width="1309" alt="스크린샷 2024-07-02 오후 8 38 11" src="https://github.com/corrvax/cloud/assets/54795404/93027cb4-d028-4bb2-8380-ca029d903fae">
     getMD5Digest 메소드에서 Hash연산을 100000번 반복한다.   
 - 서버의 Port를 80으로 맞춘다.   
-<img width="1124" alt="스크린샷 2024-07-02 오후 8 41 31" src="https://github.com/corrvax/cloud/assets/54795404/02e7a3d5-7708-450d-b456-4b672bbbb7cd">
-- 현재 실행중인 포트 중단하기
-  `netstat - lntp |grep [포트번호]`
+<img width="1124" alt="스크린샷 2024-07-02 오후 8 41 31" src="https://github.com/corrvax/cloud/assets/54795404/02e7a3d5-7708-450d-b456-4b672bbbb7cd">   
+- 현재 실행중인 포트 중단하기   
+  `netstat - lntp |grep [포트번호]`   
   `Isof -i :포트번호`   
   <img width="807" alt="스크린샷 2024-07-02 오후 8 58 48" src="https://github.com/corrvax/cloud/assets/54795404/8855b0ed-e3b0-4586-961d-0de4a8f90484">
