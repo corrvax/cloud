@@ -13,3 +13,8 @@
 
 ### CPU Bound Application
 - Hash연산을 많이 쓰는 애플리케이션
+
+1. CPU Bound Application 생성하기
+<img width="1309" alt="스크린샷 2024-07-02 오후 8 38 11" src="https://github.com/corrvax/cloud/assets/54795404/93027cb4-d028-4bb2-8380-ca029d903fae">
+
+
